@@ -1,0 +1,32 @@
+@import "./var.scss";
+
+body {
+  border: 1px solid #000;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  background: red;
+}
+
+.container {
+  overflow: hidden;
+}
+.inner {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  width: 100%;
+  overflow: auto;
+  height: 100%;
+}
+.child {
+  border-radius: 10px;
+  background: #ccc;
+  padding: 10px 5px;
+  margin: 0 15px;
+}
